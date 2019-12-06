@@ -3,3 +3,11 @@
 echo "Installing Homebrew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew cask install postman
+brew cask install pluralsight
+brew cask install evernote
+brew cask install rubymine
+brew cask install spotify
+brew cask install gitkraken
+
+
