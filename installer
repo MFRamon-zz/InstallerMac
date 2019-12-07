@@ -1,7 +1,12 @@
 #!/bin/sh
 
-echo "Installing Homebrew..."
+echo "Homebrew is being installed on your OS"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo "Installing brew cask..."
+brew tap caskroom/cask
+brew tap mongodb/brew
+brew install mongodb-community@4.2
 
 brew cask install postman
 brew cask install pluralsight
@@ -9,5 +14,13 @@ brew cask install evernote
 brew cask install rubymine
 brew cask install spotify
 brew cask install gitkraken
+brew cask install visual-studio
+brew cask install visual-studio-code
+brew cask install github-desktop
+brew cask install hyper
+brew cask install google-chrome
+brew cask install slack
+brew cask install skype
+brew install rbenv
 
 
